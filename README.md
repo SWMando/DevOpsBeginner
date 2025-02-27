@@ -1,5 +1,6 @@
 # DevOpsBeginner
-## My sort of portfolio
+
+My sort of portfolio
 
 ### 1. Bash script 'server-stats.sh'.
 
