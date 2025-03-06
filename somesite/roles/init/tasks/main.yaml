@@ -1,0 +1,15 @@
+- name: Updating repo
+  apt:
+    cache_valid_time: 86400
+    
+- name: Create directory for the script
+  file:
+    path: /opt/stats
+    state: directory
+
+- name: Copy server-stats script
+  copy:
+    src: server-stats.sh
+    dest: /opt/stats/server-stats.sh
+    mode: '0600'
+
