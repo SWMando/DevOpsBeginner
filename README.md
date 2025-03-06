@@ -1,6 +1,7 @@
 # DevOpsBeginner
 
-My sort of portfolio
+My sort of portfolio. 
+All project ideas are from here: 'https://roadmap.sh/devops/projects'
 
 ### 1. Bash script 'server-stats.sh'.
 
