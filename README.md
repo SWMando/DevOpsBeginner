@@ -21,3 +21,11 @@ Script which allows admin to:
 - Saves all archived `tar.gz` files in its own directory `/var/log/logs_archived`
 
 Because the directory is in `/var/log/logs_archived` you might need elevated priviliges to run the script.
+
+### 3. Bash script 'log-analyzer.sh'.
+
+Script which shows the statistics based on the logs of the Nginx server. Here are the stats that are being shown:
+1. Top 5 IP addresses with the most requests
+2. Top 5 most requested paths
+3. Top 5 response status codes
+4. Top 5 user agents
